@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>WebSocket Example</title>
+        <script type="module" src="client.js" defer></script>
+    </head>
+    
+    <body>
+        <h1>Collaborative Word Processor</h1> 
+        <button id="socketConnect">Connect to Document:</button>
+        <input type="text" id="docID">
+        <button id="socketDisconnect" hidden>Disconnect from Document:</button>
+        <h3 style="display: inline;"> Document Title: <span id="title"></span></h3>
+        <br>
+        <textarea id="textBody" rows="50" style="width:90%; resize:none"></textarea>
+    </body> 
+</html>
+
+
